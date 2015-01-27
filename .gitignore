@@ -7,3 +7,5 @@ release.properties
 screenshot.png
 *.iml
 .idea
+.vagrant
+*.sublime-*
