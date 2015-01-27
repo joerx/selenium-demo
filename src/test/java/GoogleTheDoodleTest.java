@@ -28,7 +28,7 @@ public class GoogleTheDoodleTest {
 
     @After
     public void closeBrowser() throws IOException {
-        shooter.shoot("/home/jhenning/Devel/Sandbox/selenium-demo/screenshot.png");
+        shooter.shoot( System.getProperty("user.dir") + "/screenshot.png");
         driver.quit();
     }
 
